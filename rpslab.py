@@ -32,4 +32,10 @@ elif(playerChoice == "r" and botChoice == 3):
     print(f"dont get to excited. YOu only won because it's an AI")
 elif(playerChoice == "p" and botChoice == 1):
     print(f"look at that AI is not so smart after all")
+elif(playerChoice == "p" and botChoice == 3):
+    print(f"what-a-loser")
+elif(playerChoice == "s" and botChoice == 1):
+    print(f"CONGRATUALTIONS! YOU LOSE!")
+elif(playerChoice == "s" and botChoice == 2):
+    print(f"YOU WON!!!")
 
