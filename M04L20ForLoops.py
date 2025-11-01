@@ -22,9 +22,14 @@ for play in range(-2,6):
 for dog in range(0,10,2):
         print(dog)
 
-for plane in range(10):
+for plane in range(3):
         plane += 1
         print(plane)
-        if plane == 9: 
+        if plane == 2: 
                 break
         
+for car in range(0,4):
+        car += 1
+        print(car)
+        if car == 3: 
+                break
