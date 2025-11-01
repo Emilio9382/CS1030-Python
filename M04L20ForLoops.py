@@ -33,3 +33,9 @@ for car in range(0,4):
         print(car)
         if car == 3: 
                 break
+        
+for car in range(0,20,5):
+        car += 5
+        print(car)
+        if car == 15: 
+                break
