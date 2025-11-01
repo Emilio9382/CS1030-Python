@@ -18,3 +18,19 @@ print(len(foods))
 for food in foods: 
     print("i like", food)
 
+Hobbies = ["motorcycle", "car", "video games"]
+print(Hobbies[0])
+print(Hobbies[2])
+#print(HObbies[3]) gets in error
+Hobbies[0] = "reading"
+print(Hobbies)
+Hobbies[1:2] = ["building pcs", "editing"]
+print(Hobbies)
+Hobbies[1:3] = ["watching YT"]
+print(Hobbies)
+Hobbies.append("buidling pcs")
+print(Hobbies)
+Hobbies.insert(0,"editing")
+print(Hobbies)
+Hobbies.remove("editing")
+print(Hobbies)
