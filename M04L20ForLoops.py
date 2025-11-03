@@ -34,8 +34,8 @@ for car in range(0,4):
         if car == 3: 
                 break
         
-for car in range(0,20,5):
-        car += 5
-        print(car)
-        if car == 15: 
+for motorcycle in range(0,20,5):
+        motorcycle += 5
+        print(motorcycle)
+        if motorcycle == 15: 
                 break

@@ -1,8 +1,14 @@
+
 import random
 
-mylist = ["a", "b", "c", "d","e","f"]
+letters = "abcdefghijklmnopqrstuvwxyz"
 
 userChoice = input("How many letters do you want in your password: ")
+numbers = input("how many passwords do you want: ")
 
-for mylist in range == userChoice: 
-    print(random.choice(mylist))
+for numberOfPassword in range (int(numbers)):
+    wholePassword = ''
+    for passwordLength in range (int(userChoice)): 
+         wholePassword += random.choice(letters)
+    print(wholePassword)
+    
