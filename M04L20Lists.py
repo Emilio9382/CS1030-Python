@@ -17,6 +17,7 @@ print(len(foods))
 #prints i like ___ for everything in the list =EP
 for food in foods: 
     print("i like", food)
+
 #declares list of favo hobbies -EP
 Hobbies = ["motorcycle", "car", "video games"]
 #print hobbie 0 -EP
